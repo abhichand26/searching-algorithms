@@ -88,11 +88,5 @@ int main()
   		scanf("%c",&ch);	
 	}while(ch=='Y'||ch=='y');
 	
-	
-	
-	
-	
-	
-		
 	return 0;
 }
