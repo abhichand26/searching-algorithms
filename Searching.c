@@ -62,12 +62,9 @@ int main()
 		printf("Select the type of searching:\n");
 		printf("1-Linear Search\n");
 		printf("2-Binary Search\n");
-		printf("3-Merge Sort\n");
-		printf("4-Quick Sort\n");
-		printf("5-Exit\n");
+		printf("3-Exit\n");
 		printf("Enter your choice:");
 		scanf("%d",&sel);
-		
 		
 		switch(sel)
  		{
@@ -78,6 +75,9 @@ int main()
 			case 2:
   				BinarySearch(A,n,search);
   				break;
+				
+			case 3:
+				return 0;
 
 			default:
   				printf("That is not a valid selection!\n");
