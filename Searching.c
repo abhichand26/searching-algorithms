@@ -2,6 +2,11 @@
 #include<stdlib.h>
 #include<malloc.h>
 
+/*
+** Program to find an element using Linear and Binary Search
+** Made by - Abhishek Chand
+*/
+
 void LinearSearch(int A[],int n,int search)
 {
 	int i,count=0;
